@@ -4,8 +4,8 @@ def is_prime(n):
     elif n == 1:
         return('not a prime number')
     elif n % 2 == 0:
-        return('it is a prime number')
+        return('not a prime number')
     else:
-        return('not a prime no')
+        return('it is a prime no')
     
-print(is_prime(3))
+print(is_prime(1))
