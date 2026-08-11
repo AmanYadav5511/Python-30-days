@@ -3,7 +3,7 @@ def add_to_end(lst, item):
     lst.append(item)
     print('after add to end : ',lst)
 def add_to_start(lst, item):
-    print('after add to start : ',lst)
+    print('before add to start : ',lst)
     lst.insert(0,item)
     print('after add to start : ',lst)
 
