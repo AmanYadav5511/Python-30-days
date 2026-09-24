@@ -1,0 +1,8 @@
+import webbrowser, sys, pyperclip
+if len(sys.argv) > 1:
+    # Get address from command line.
+    address = ' '.join(sys.argv[1:])
+else:
+    # Get address from clipboard.
+    url = pyperclip.paste()
+webbrowser.open('https://maps.app.goo.gl/' + url)
