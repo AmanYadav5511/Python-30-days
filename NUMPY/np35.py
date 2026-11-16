@@ -1,0 +1,13 @@
+from numpy import random
+x = random.randint(100)
+y = random.rand(5)
+z = random.randint(100, size = (5))
+a = random.randint(100, size = (3,5))
+b = random.choice([3, 5, 7, 9])
+c = random.choice([3, 5, 7, 9], size=(3, 5))
+print(x)
+print(y)
+print(z)
+print(a)
+print(b)
+print(c)
